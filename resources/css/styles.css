@@ -1,0 +1,235 @@
+/* ------------------------------- */
+/* GENERAL SETTINGS */
+/* ------------------------------- */
+
+/* ----  COLORS ---- */
+/* #e24b1d /* orange */
+/* #c887dd /* purple */
+/* #1f304c /* dark blue */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    color:#4e4e4e;
+    background-color:#fff;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear:both;
+    display:block;
+    height: 0;
+    visibility: hidden;
+}
+
+/* ------------------------------- */
+/* REUSABLE COMPONENTS */
+/* ------------------------------- */
+
+.row{
+    max-width: 1140px;
+    margin:0 auto;
+    margin-top: 40px;
+}
+
+/* ----  TITLES ---- */
+
+h1{
+    font-family: cursive;
+    font-size:700%;
+    text-align: right;
+    color:black;
+    line-height: 120%;
+    letter-spacing: 5px;
+}
+
+h2{ 
+    text-transform: uppercase;
+    font-size: 200%;
+    font-weight: 200;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    text-align: center;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #c887dd /* purple */;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-bottom:30px;
+    margin-top:30px;
+}
+
+/* ----  PAGRAPH ---- */
+p{
+    letter-spacing: .5px;
+    word-spacing: 2px;
+    line-height: 145%;
+}
+
+/* ----  LINKS ---- */
+
+a:link,
+a:visited{
+    text-decoration: none;
+    color: #e24b1d;
+    text-transform: uppercase;
+    font-size: 90%;
+    letter-spacing: .5px;
+    transition: all .5s;
+}
+
+a:hover,
+a:active{
+    color: #c887dd /* purple */;
+    transform: scale(1.1);
+
+}
+
+/* ------------------------------- */
+/* HEADER */
+/* ------------------------------- */
+
+/* ----  NAV AND LOGO ---- */
+
+nav{
+    height:95px;
+    width: 100vw;
+    position: fixed;
+    background-color:#1f304c;
+    z-index:1;
+}
+
+.logo {
+    float:left;
+    width:80px;
+    height: auto;
+    margin-left:15%;
+    margin-top:6px;
+}
+
+
+.main-nav{
+    float:right;
+    margin-right:15%;
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-top: 35px;
+    margin-right: 25px;
+    
+}
+
+.main-nav li:last-child{
+    margin:0
+}
+
+
+
+
+header{
+}
+
+/* ---- YAMASHITA DESIGNS ---- */
+
+.front-page{
+    position: relative;
+    background-image:url(images/scott_happicoat_001_cutout.png), linear-gradient(#e24b1d, #e24b1d);
+    background-repeat: no-repeat;
+    height: 80vh;
+    background-position: 15% bottom;
+}
+
+.hero-text-box{
+    position:absolute;
+    bottom:0;
+    right:15%;
+}
+
+/* ------------------------------- */
+/* OFFERINGS */
+/* ------------------------------- */
+
+.offerings-container{
+    display:flex;
+}
+
+.offerings-content{
+    display:flex;
+    width:25%;
+    align-content: space-around;
+}
+
+.offerings-img{
+    max-width: 100%;
+    height:auto;
+    padding:10px;
+}
+
+figcaption{
+    text-align: center;
+    color:
+}
+
+/* ------------------------------- */
+/* What is happi */
+/* ------------------------------- */
+
+/*
+
+.happi-front,
+.pants,
+.shirts,
+.sewing-machine{
+    max-width:30%;
+}
+
+
+
+
+
+.about-happi-container{
+    display:flex;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.happi-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.happi-front{
+    max-width:30%;
+}
+
+flex-item-text-box{
+    height: 400px;
+    width:100px;
+    background: black;
+    border:1px solid green;
+    color:white;
+    width:10%;
+}
+
+
+.happi-front{
+    width:80%;
+}
+
+*/
